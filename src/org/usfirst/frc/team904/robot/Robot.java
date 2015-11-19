@@ -85,12 +85,4 @@ public class Robot extends IterativeRobot {
     		shift.set(DoubleSolenoid.Value.kOff);
     	}
     }
-    public void LoopCheck(){
-    	for(x = 0; x < 100; x =+ 4){
-    			System.out.print(x);
-    	}
-    		
-    }
-
-    
 }
